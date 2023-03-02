@@ -14,17 +14,22 @@ def menu_main():
     elif opcion == 5:
         exit
     elif opcion == 4:
-        return "ok, actualizando"
-        
-    # elif opcion == 3:
-        
-    # elif opcion == 2:
-        
-    # elif opcion == 1:
-        
-    
-    # else:
+        opcion(opcion)
+    elif opcion == 3:
+        opcion(opcion)
+    elif opcion == 2:
+        opcion(opcion)
+    elif opcion == 1:
+        opcion(opcion)
+    else:
         return "Seleccion invalida..."
+        menu_main()
     
     
+    def opcion(opcion):
+        print(opcion)
+    
+    
+    
+menu_main()
     

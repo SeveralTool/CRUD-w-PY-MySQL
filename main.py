@@ -22,6 +22,7 @@ def menu_main():
                 return("Gracias por visitarnos!")
                 break
             elif opcion == 4:
+                return("Seleccione el cliente: ")
                 opcion(opcion)
             elif opcion == 3:
                 opcion(opcion)
@@ -34,7 +35,7 @@ def menu_main():
                 menu_main()
     
     
-    def opcion(opcion):
+    def Whichopcion(opcion):
         print(opcion)
     
     

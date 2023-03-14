@@ -13,7 +13,7 @@ class DAO():
                 db= "testDB",
             )
     except Error as ex:
-        print("Eroor al conectar con la DataBase:{0}".format(ex))
+        print("Error al conectar con la DataBase:{0}".format(ex))
         
         
     def verUsers(self):

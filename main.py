@@ -35,7 +35,7 @@ def menu_main():
                 menu_main()
     
     
-    def Whichopcion(opcion):
+    def Which_opcion(opcion):
         print(opcion)
     
     

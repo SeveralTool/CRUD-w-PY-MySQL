@@ -24,4 +24,4 @@ class DAO():
                 resultado = cursor.fetchall()
                 return resultado
             except Error as ex:
-                print("Error al intentar la Query: {0}".format(ex))
+                print("Error al intentar la consulta: {0}".format(ex))
